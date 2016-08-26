@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F112C061D7023DA001440CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C051D7023DA001440CD /* main.m */; };
+		3F112C091D7023DA001440CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C081D7023DA001440CD /* AppDelegate.m */; };
+		3F112C0C1D7023DA001440CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C0B1D7023DA001440CD /* ViewController.m */; };
+		3F112C0F1D7023DA001440CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F112C0D1D7023DA001440CD /* Main.storyboard */; };
+		3F112C111D7023DA001440CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F112C101D7023DA001440CD /* Assets.xcassets */; };
+		3F112C141D7023DA001440CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F112C121D7023DA001440CD /* LaunchScreen.storyboard */; };
+		3F112C1F1D7023DA001440CD /* WildPointerCheckerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C1E1D7023DA001440CD /* WildPointerCheckerDemoTests.m */; };
+		3F112C2A1D7023DA001440CD /* WildPointerCheckerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C291D7023DA001440CD /* WildPointerCheckerDemoUITests.m */; };
+		3F112C3A1D70243D001440CD /* WildPointerChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C391D70243D001440CD /* WildPointerChecker.m */; };
+		3F112C3D1D7024F2001440CD /* WPCZombieObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C3C1D7024F2001440CD /* WPCZombieObject.m */; };
+		3F112C401D70268F001440CD /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F112C3E1D70268F001440CD /* fishhook.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F112C1B1D7023DA001440CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F112BF91D7023DA001440CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F112C001D7023DA001440CD;
+			remoteInfo = WildPointerCheckerDemo;
+		};
+		3F112C261D7023DA001440CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F112BF91D7023DA001440CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F112C001D7023DA001440CD;
+			remoteInfo = WildPointerCheckerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F112C011D7023DA001440CD /* WildPointerCheckerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildPointerCheckerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F112C051D7023DA001440CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F112C071D7023DA001440CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F112C081D7023DA001440CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F112C0A1D7023DA001440CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F112C0B1D7023DA001440CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F112C0E1D7023DA001440CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F112C101D7023DA001440CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F112C131D7023DA001440CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F112C151D7023DA001440CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F112C1A1D7023DA001440CD /* WildPointerCheckerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildPointerCheckerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F112C1E1D7023DA001440CD /* WildPointerCheckerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildPointerCheckerDemoTests.m; sourceTree = "<group>"; };
+		3F112C201D7023DA001440CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F112C251D7023DA001440CD /* WildPointerCheckerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildPointerCheckerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F112C291D7023DA001440CD /* WildPointerCheckerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildPointerCheckerDemoUITests.m; sourceTree = "<group>"; };
+		3F112C2B1D7023DA001440CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F112C381D70243D001440CD /* WildPointerChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildPointerChecker.h; sourceTree = "<group>"; };
+		3F112C391D70243D001440CD /* WildPointerChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WildPointerChecker.m; sourceTree = "<group>"; };
+		3F112C3B1D7024F2001440CD /* WPCZombieObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCZombieObject.h; sourceTree = "<group>"; };
+		3F112C3C1D7024F2001440CD /* WPCZombieObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCZombieObject.m; sourceTree = "<group>"; };
+		3F112C3E1D70268F001440CD /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		3F112C3F1D70268F001440CD /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F112BFE1D7023DA001440CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F112C171D7023DA001440CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F112C221D7023DA001440CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F112BF81D7023DA001440CD = {
+			isa = PBXGroup;
+			children = (
+				3F112C031D7023DA001440CD /* WildPointerCheckerDemo */,
+				3F112C1D1D7023DA001440CD /* WildPointerCheckerDemoTests */,
+				3F112C281D7023DA001440CD /* WildPointerCheckerDemoUITests */,
+				3F112C021D7023DA001440CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F112C021D7023DA001440CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F112C011D7023DA001440CD /* WildPointerCheckerDemo.app */,
+				3F112C1A1D7023DA001440CD /* WildPointerCheckerDemoTests.xctest */,
+				3F112C251D7023DA001440CD /* WildPointerCheckerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F112C031D7023DA001440CD /* WildPointerCheckerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F112C371D702406001440CD /* WildPointerChecker */,
+				3F112C071D7023DA001440CD /* AppDelegate.h */,
+				3F112C081D7023DA001440CD /* AppDelegate.m */,
+				3F112C0A1D7023DA001440CD /* ViewController.h */,
+				3F112C0B1D7023DA001440CD /* ViewController.m */,
+				3F112C0D1D7023DA001440CD /* Main.storyboard */,
+				3F112C101D7023DA001440CD /* Assets.xcassets */,
+				3F112C121D7023DA001440CD /* LaunchScreen.storyboard */,
+				3F112C151D7023DA001440CD /* Info.plist */,
+				3F112C041D7023DA001440CD /* Supporting Files */,
+			);
+			path = WildPointerCheckerDemo;
+			sourceTree = "<group>";
+		};
+		3F112C041D7023DA001440CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F112C051D7023DA001440CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F112C1D1D7023DA001440CD /* WildPointerCheckerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F112C1E1D7023DA001440CD /* WildPointerCheckerDemoTests.m */,
+				3F112C201D7023DA001440CD /* Info.plist */,
+			);
+			path = WildPointerCheckerDemoTests;
+			sourceTree = "<group>";
+		};
+		3F112C281D7023DA001440CD /* WildPointerCheckerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F112C291D7023DA001440CD /* WildPointerCheckerDemoUITests.m */,
+				3F112C2B1D7023DA001440CD /* Info.plist */,
+			);
+			path = WildPointerCheckerDemoUITests;
+			sourceTree = "<group>";
+		};
+		3F112C371D702406001440CD /* WildPointerChecker */ = {
+			isa = PBXGroup;
+			children = (
+				3F112C381D70243D001440CD /* WildPointerChecker.h */,
+				3F112C391D70243D001440CD /* WildPointerChecker.m */,
+				3F112C3B1D7024F2001440CD /* WPCZombieObject.h */,
+				3F112C3C1D7024F2001440CD /* WPCZombieObject.m */,
+				3F112C3E1D70268F001440CD /* fishhook.c */,
+				3F112C3F1D70268F001440CD /* fishhook.h */,
+			);
+			path = WildPointerChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F112C001D7023DA001440CD /* WildPointerCheckerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F112C2E1D7023DA001440CD /* Build configuration list for PBXNativeTarget "WildPointerCheckerDemo" */;
+			buildPhases = (
+				3F112BFD1D7023DA001440CD /* Sources */,
+				3F112BFE1D7023DA001440CD /* Frameworks */,
+				3F112BFF1D7023DA001440CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WildPointerCheckerDemo;
+			productName = WildPointerCheckerDemo;
+			productReference = 3F112C011D7023DA001440CD /* WildPointerCheckerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F112C191D7023DA001440CD /* WildPointerCheckerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F112C311D7023DA001440CD /* Build configuration list for PBXNativeTarget "WildPointerCheckerDemoTests" */;
+			buildPhases = (
+				3F112C161D7023DA001440CD /* Sources */,
+				3F112C171D7023DA001440CD /* Frameworks */,
+				3F112C181D7023DA001440CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F112C1C1D7023DA001440CD /* PBXTargetDependency */,
+			);
+			name = WildPointerCheckerDemoTests;
+			productName = WildPointerCheckerDemoTests;
+			productReference = 3F112C1A1D7023DA001440CD /* WildPointerCheckerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F112C241D7023DA001440CD /* WildPointerCheckerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F112C341D7023DA001440CD /* Build configuration list for PBXNativeTarget "WildPointerCheckerDemoUITests" */;
+			buildPhases = (
+				3F112C211D7023DA001440CD /* Sources */,
+				3F112C221D7023DA001440CD /* Frameworks */,
+				3F112C231D7023DA001440CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F112C271D7023DA001440CD /* PBXTargetDependency */,
+			);
+			name = WildPointerCheckerDemoUITests;
+			productName = WildPointerCheckerDemoUITests;
+			productReference = 3F112C251D7023DA001440CD /* WildPointerCheckerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F112BF91D7023DA001440CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hdurtt;
+				TargetAttributes = {
+					3F112C001D7023DA001440CD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3F112C191D7023DA001440CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3F112C001D7023DA001440CD;
+					};
+					3F112C241D7023DA001440CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3F112C001D7023DA001440CD;
+					};
+				};
+			};
+			buildConfigurationList = 3F112BFC1D7023DA001440CD /* Build configuration list for PBXProject "WildPointerCheckerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F112BF81D7023DA001440CD;
+			productRefGroup = 3F112C021D7023DA001440CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F112C001D7023DA001440CD /* WildPointerCheckerDemo */,
+				3F112C191D7023DA001440CD /* WildPointerCheckerDemoTests */,
+				3F112C241D7023DA001440CD /* WildPointerCheckerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F112BFF1D7023DA001440CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F112C141D7023DA001440CD /* LaunchScreen.storyboard in Resources */,
+				3F112C111D7023DA001440CD /* Assets.xcassets in Resources */,
+				3F112C0F1D7023DA001440CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F112C181D7023DA001440CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F112C231D7023DA001440CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F112BFD1D7023DA001440CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F112C0C1D7023DA001440CD /* ViewController.m in Sources */,
+				3F112C3A1D70243D001440CD /* WildPointerChecker.m in Sources */,
+				3F112C3D1D7024F2001440CD /* WPCZombieObject.m in Sources */,
+				3F112C091D7023DA001440CD /* AppDelegate.m in Sources */,
+				3F112C401D70268F001440CD /* fishhook.c in Sources */,
+				3F112C061D7023DA001440CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F112C161D7023DA001440CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F112C1F1D7023DA001440CD /* WildPointerCheckerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F112C211D7023DA001440CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F112C2A1D7023DA001440CD /* WildPointerCheckerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F112C1C1D7023DA001440CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F112C001D7023DA001440CD /* WildPointerCheckerDemo */;
+			targetProxy = 3F112C1B1D7023DA001440CD /* PBXContainerItemProxy */;
+		};
+		3F112C271D7023DA001440CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F112C001D7023DA001440CD /* WildPointerCheckerDemo */;
+			targetProxy = 3F112C261D7023DA001440CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F112C0D1D7023DA001440CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F112C0E1D7023DA001440CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F112C121D7023DA001440CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F112C131D7023DA001440CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F112C2C1D7023DA001440CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F112C2D1D7023DA001440CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F112C2F1D7023DA001440CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WildPointerCheckerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdurtt.WildPointerCheckerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F112C301D7023DA001440CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WildPointerCheckerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdurtt.WildPointerCheckerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F112C321D7023DA001440CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WildPointerCheckerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdurtt.WildPointerCheckerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildPointerCheckerDemo.app/WildPointerCheckerDemo";
+			};
+			name = Debug;
+		};
+		3F112C331D7023DA001440CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WildPointerCheckerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdurtt.WildPointerCheckerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildPointerCheckerDemo.app/WildPointerCheckerDemo";
+			};
+			name = Release;
+		};
+		3F112C351D7023DA001440CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WildPointerCheckerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdurtt.WildPointerCheckerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WildPointerCheckerDemo;
+			};
+			name = Debug;
+		};
+		3F112C361D7023DA001440CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WildPointerCheckerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdurtt.WildPointerCheckerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WildPointerCheckerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F112BFC1D7023DA001440CD /* Build configuration list for PBXProject "WildPointerCheckerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F112C2C1D7023DA001440CD /* Debug */,
+				3F112C2D1D7023DA001440CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F112C2E1D7023DA001440CD /* Build configuration list for PBXNativeTarget "WildPointerCheckerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F112C2F1D7023DA001440CD /* Debug */,
+				3F112C301D7023DA001440CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F112C311D7023DA001440CD /* Build configuration list for PBXNativeTarget "WildPointerCheckerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F112C321D7023DA001440CD /* Debug */,
+				3F112C331D7023DA001440CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F112C341D7023DA001440CD /* Build configuration list for PBXNativeTarget "WildPointerCheckerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F112C351D7023DA001440CD /* Debug */,
+				3F112C361D7023DA001440CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F112BF91D7023DA001440CD /* Project object */;
+}
