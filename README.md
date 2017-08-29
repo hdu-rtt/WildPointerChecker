@@ -1,6 +1,8 @@
 # WildPointerChecker
 check wild pointer crash in iOS App. inspiration from zombie object.
-[![Build Status](https://travis-ci.org/michaelliao/openweixin.svg?branch=master)](https://travis-ci.org/michaelliao/openweixin)
+
+[![Build Status](https://travis-ci.org/hdu-rtt/WildPointerChecker.svg?branch=master)](https://travis-ci.org/hdu-rtt/WildPointerChecker)
+
 # How to work
 - use fishhook(facebook) lib hook the C method free
 - in my free method add the pointer to a unfree list
